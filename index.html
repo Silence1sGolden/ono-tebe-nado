@@ -24,22 +24,16 @@
           </li>
         </ul>
       </nav>
-      <div class="logo">
-        <a href="">
-          <img
-            class="logo__image"
-            src="./images/logo-black.svg"
-            alt="Логотип 'Оно тебе надо'"
-          />
-        </a>
-      </div>
+      <a class="logo">
+        <img
+          class="logo__image"
+          src="./images/logo-black.svg"
+          alt="Логотип 'Оно тебе надо'"
+        />
+      </a>
       <address class="info">
-        <a class="info__link" href="tel:+99995555555">
-          <span class="underline">+9 999 555 5555</span>
-        </a>
-        <a class="info__link" href="mailto:info@sobaka.ge">
-          <span class="underline">info@sobaka.ge</span>
-        </a>
+        <a class="info__link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="info__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="info__address">наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
     </header>
@@ -48,76 +42,77 @@
         <div class="overlay"></div>
         <h1 class="cover__title">
           <span class="cover__word">
-            о<span class="cover__letter-out">н</span>о
+            о<span class="letter-spacing-six">н</span>о
           </span>
-          <span class="cover__word cover__word-center">
-            те<span class="cover__letter-out">б</span>е
+          <span class="cover__word cover__align-center">
+            те<span class="letter-spacing-six">б</span>е
           </span>
-          <span class="cover__word cover__word-end">
-            <span class="cover__letter-out">н</span>адо
+          <span class="cover__word cover__align-end">
+            <span class="letter-spacing-six">н</span>ад<span
+              class="no-letter-spacing"
+              >о</span
+            >
           </span>
         </h1>
         <div class="cover__bottom">
-          <p class="cover__subtitle">
-            Аукцио<span class="cover__letter-spacing-nine">н</span> вещей<span
-              class="cover__letter-spacing-eight"
-              >,</span
-            >
-            <span class="cover__letter-spacing-eleven">в</span>которы<span
-              class="cover__letter-spacing-nine"
-              >е</span
-            >
-            никт<span class="cover__letter-spacing-eight">о</span> н<span
-              class="cover__letter-spacing-eight"
-              >е</span
-            >
-            верил
-          </p>
-          <button class="cover__button">Сделать ставку</button>
+          <p class="cover__subtitle">Аукцион вещей, вкоторые никто не верил</p>
+          <button class="cover__bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
         <h2 class="lots__title">Лоты</h2>
-        <div class="lots__row">
-          <div class="lots__item lots__item-image-1">
-            <div class="overlay"></div>
-            <h3 class="lots__item-title">
-              Фильм режиссёра, который бросил киношколу
-            </h3>
-            <p class="lots__item-subtitle">
-              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-              ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-            </p>
-          </div>
-          <div class="lots__item lots__item-image-2">
-            <div class="overlay"></div>
-            <h3 class="lots__item-title">
-              Книга, где описан один скучный день из жизни рекламного агента
-            </h3>
-            <p class="lots__item-subtitle">
-              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-              переходами на древнеанглийский. В ней одновременно рассказывается
-              о 16 июня 1904 года и об истории литературы, начиная с античных
-              времён. И это всё накладывается на эпическую поэму Гомера. Сколько
-              бы вы поставили на «Улисса» Джеймса Джойса?
-            </p>
-          </div>
-          <div class="lots__item lots__item-image-3">
-            <div class="overlay"></div>
-            <h3 class="lots__item-title">
-              Картина, которую повторит даже 5-летний сын маминой подруги
-            </h3>
-            <p class="lots__item-subtitle">
-              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
-              похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
-              Сколько бы вы на такое поставили, если бы не знали, что это — одна
-              из революционных работ Кандинского?
-            </p>
-          </div>
-        </div>
-        <a class="lots__more" href="#">
-          <span class="underline">посмотреть больше</span>
-        </a>
+        <ul class="lots__card-list">
+          <li class="lots__card-list-item">
+            <a class="card-link" href="#">
+              <article class="card card__image-1">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="card__subtitle">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </article>
+            </a>
+          </li>
+          <li class="lots__card-list-item">
+            <a class="card-link" href="#">
+              <article class="card card__image-2">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="card__subtitle">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
+              </article>
+            </a>
+          </li>
+          <li class="lots__card-list-item">
+            <a class="card-link" href="#">
+              <article class="card card__image-3">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="card__subtitle">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков... Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
+              </article>
+            </a>
+          </li>
+        </ul>
+        <a class="lots__look-more-link" href="#">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about__logo">
@@ -152,12 +147,8 @@
     </main>
     <footer class="footer">
       <address class="info">
-        <a class="info__link" href="tel:+99995555555">
-          <span class="underline">+9 999 555 5555</span>
-        </a>
-        <a class="info__link" href="mailto:info@sobaka.ge">
-          <span class="underline">info@sobaka.ge</span>
-        </a>
+        <a class="info__link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="info__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="info__address">наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
       <ul class="footer__list">
