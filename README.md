@@ -1,1 +1,1 @@
-git@github.com:Silence1sGolden/ono-tebe-nado.git
+https://github.com/Silence1sGolden/ono-tebe-nado.git
